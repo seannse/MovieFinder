@@ -1,0 +1,9 @@
+export { default as AppBar } from './Header/Header';
+export { default as Layout } from './Layout/Layout';
+export { default as Loader } from './Loader/Loader';
+export { default as MovieItem } from './MovieList/MovieItem';
+export { default as MovieList } from './MovieList/MovieList';
+export { default as SearchForm } from './SearchForm/SearchForm';
+export { default as MovieDatail } from './MovieDatail/MovieDatail';
+export { default as BtnLoadMore } from './BtnLoadMore/BtnLoadMore';
+export { default as BtnScrollToTop } from './BtnScrollToTop/BtnScrollToTop';

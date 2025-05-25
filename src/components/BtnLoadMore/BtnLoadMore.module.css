@@ -1,0 +1,30 @@
+/*
+* Стили компонента Buton (Load more)
+*/
+.btn {
+  max-width: 250px;
+  min-width: 180px;
+  /* margin: 0 auto; */
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #ff6b6b;
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  display: block;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ff4c4c;
+
+  transform: scale(1.05);
+}

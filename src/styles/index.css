@@ -1,0 +1,71 @@
+@import-normalize;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  /* scrollbar-gutter: stable; */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #4f7064;
+  background: radial-gradient(
+    circle,
+    rgba(79, 112, 100, 1) 5%,
+    rgba(68, 102, 89, 1) 20%,
+    rgba(55, 82, 72, 1) 40%,
+    rgba(39, 41, 40, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fafafa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  color: hsl(234, 56%, 21%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
+  -webkit-tap-highlight-color: transparent;
+}

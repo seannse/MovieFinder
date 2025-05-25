@@ -1,0 +1,29 @@
+.btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+
+  outline: none;
+  background-color: #aafadd;
+
+  color: rgba(55, 82, 72, 1);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
